@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "concurrently \"npm run start:host\" \"npm run start:remote\"",
-    "start:host": "ng serve --project host",
-    "start:remote": "ng serve --project remote",
+    "start:host": "ng serve host",
+    "start:remote": "ng serve remote",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
