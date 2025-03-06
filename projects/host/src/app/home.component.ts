@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   template: `<p>Nothing to see here ;)</p>`,
   standalone: true,
 })
-export class HomeComponent {
-
-}
+export class HomeComponent {}

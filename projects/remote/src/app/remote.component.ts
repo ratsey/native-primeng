@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   template: `<h2>Hello from your MicroFrontend</h2>`,
   standalone: true,
 })
-export default class RemoteComponent {
-
-}
+export default class RemoteComponent {}
